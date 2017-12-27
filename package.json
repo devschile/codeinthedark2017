@@ -1,0 +1,31 @@
+{
+  "name": "code-in-the-dark-devschile",
+  "version": "1.0.0",
+  "description": "Code In The Dark DevsChile / Santiago - Diciembre 2017",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run open && npm run watch",
+    "open": "opn docs/index.html",
+    "watch": "cleaver watch index.md --output docs/index.html",
+    "build": "cleaver index.md --output docs/index.html",
+    "test": "echo \"No se como testear esto\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devschile/code-in-the-dark-devschile.git"
+  },
+  "keywords": [
+    "code-in-the-dark",
+    "devschile"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devschile/code-in-the-dark-devschile/issues"
+  },
+  "homepage": "https://github.com/devschile/code-in-the-dark-devschile#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cleaver": "0.8.7",
+    "opn-cli": "3.1.0"
+  }
+}
